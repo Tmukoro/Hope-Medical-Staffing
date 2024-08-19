@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+}
+
+
+
+.nav_link{
+    list-style: none;
+    display: inline;
+    padding: 0% 15px;
+}
+
+.nav_link a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #6C7175;
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav_link a:hover{
+    color: black;
+}
+
+
+.nav_btn{
+    background-color: #ED0D63;
+    border: 1px solid #ED0D63;
+    border-radius: 15px;
+    padding: 14px 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_btn:hover{
+    background-color: #be0f52;
+}
+
+
+
+
+
+/* AD SECT */
+
+.ad_sect{
+    background-image: url(images/andre-jackson-LdJrAEnYDa0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 15%;
+}
+
+.text_area{
+    width: 70%;
+    margin-left: 9.6%;
+    margin-top: 1%;
+}
+
+.text_area h1{
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    padding-top: 4%;
+    color: black
+}
+
+.text_area p{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    padding-top: 4%;
+}
+
+.text_area button {
+    background-color: #ED0D63;
+    border: 1px solid #ED0D63;
+    border-radius: 15px;
+    padding: 14px 25px;
+    margin-top: 4%;
+    transition: all 0.3s ease 0s;
+}
+
+.text_area button:hover{
+    background-color: #be0f52;
+}
+
+.text_area button a{
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* ABOUT US SECTION */
+
+.absec{
+    height: 1100px;
+}
+
+
+.about_sec{
+    padding-top: 3%;
+    width: 60%;
+    float: left;
+}
+
+
+.dot{
+    background-color: #EEF1F7;
+    border-radius: 15px;
+    padding: 7px 10px;
+    width: 15%;
+    margin-left: 5%;
+}
+
+.dot p{
+    font-family: "Inter", sans-serif;
+}
+
+
+.abs_text{
+    font-family: "Inter", sans-serif;
+    padding-left: 5%;
+    width: 80%;
+}
+
+.abs_text h1{
+    padding-top: 2%;
+    font-size: 34px;
+}
+
+.abs_text h2{
+    padding-top: 7%;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.abs_text p{
+    padding-top: 2%;
+}
+
+.abs_text2{
+    font-family: "Inter", sans-serif;
+    padding-left: 1%;
+    margin-left: 5%;
+    width: 60%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.abs_text2 h1{
+    padding-top: 2%;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.abs_text2 p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+.abs_text2 p img{
+    border: 1px solid #98fcf3;
+    border-radius: 50%;
+    padding: 1.2px 1.2px;
+    background-color: #d2f5f2;
+    
+}
+
+.about_sec2{
+    float: left;
+    width: 40%;
+    padding-top: 4%;
+    padding-bottom: 35%;
+}
+
+.about_sec2 img{
+    width: 90%;
+}
+
+
+
+
+/* FOOTER SECTION */
+
+.foot_1{
+    padding-top: 3%;
+    float: left;
+    width: 50%;
+    padding-bottom: 4%;
+}
+
+.foot_2{
+    padding-top: 4.5%;
+    margin-left: 10%;
+    float: left;
+    width: 35%;
+    padding-bottom: 4%;
+}
+
+.fp{
+    padding-top: 2%;
+    padding-left: 8%;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+
+.foot_15{
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.fi img{
+    border: 1px solid #cdd1d4;
+    border-radius: 50%;
+    padding: 10px 10px;
+    background-color: #cdd1d4;
+    margin-left: 3%;
+    transition: all 0.3s ease 0s;
+}
+
+.fi img:hover{
+    background-color: #6C7175;
+}

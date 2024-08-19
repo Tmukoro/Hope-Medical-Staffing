@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+}
+
+
+
+.nav_link{
+    list-style: none;
+    display: inline;
+    padding: 0% 15px;
+}
+
+.nav_link a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #6C7175;
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav_link a:hover{
+    color: black;
+}
+
+
+.nav_btn{
+    background-color: #ED0D63;
+    border: 1px solid #ED0D63;
+    border-radius: 15px;
+    padding: 14px 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_btn:hover{
+    background-color: #be0f52;
+}
+
+
+
+
+
+/* SIGN SECTION */
+
+.sign_sect{
+    height: 650px;
+    padding-top: 3%;
+}
+
+
+.box{
+    border: 1px solid #fc8eb8;
+    background-color: #fc8eb8;
+    border-radius: 15px;
+    width: 1230px;
+    height: 600px;
+    margin: auto;
+}
+
+.sub_box{
+    margin-top: 5%;
+    margin-left: 4%;
+    float: left;
+    width: 650px;
+    height: 450px;
+}
+
+.sub_box h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.sub_box ul{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.sub_box li{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.sub_box button{
+    background-color:  white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 11px 27px;
+    margin-top: 4%;
+    transition: all 0.3s ease 0s;
+}
+
+.sub_box button:hover{
+    background-color: #f7f7f7;
+}
+
+.sub_box button a{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.sub_box2{
+    margin-top: 5%;
+    margin-left: 1%;
+    float: left;
+    width: 450px;
+    height: 450px;
+}
+
+
+
+/* CONTACT SECTION */
+
+
+.contact{
+    height: 800px;
+}
+
+.heading{
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.dot{
+    background-color: #EEF1F7;
+    border-radius: 18px;
+    padding: 8px 1px 8px 27px;
+    width: 10%;
+}
+
+.dot img{
+    margin-left: 2%;
+}
+
+.dot p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.ch{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #1D2B36;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.ctp{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #6C7175;
+    padding-top: 1%;
+    text-align: center;
+}
+
+
+.contact_box{
+    padding-top: 3%;
+    margin-left: 39%;
+    width: 385px;
+    height: 600px;
+}
+
+
+.info_box p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #6C7175;
+}
+
+.info_box input{
+    border: 1px solid #d6d8db;
+    padding: 12px 150px 12px 5px;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+
+.info_box input::placeholder{
+    font-family: "Inter", sans-serif;
+    color: #1D2B36;
+    font-size: 16px;
+    width: 250px;
+}
+
+.info_box button{
+    background-color: #ED0D63;
+    border: 1px solid #ED0D63;
+    border-radius: 10px;
+    margin-left: 14%;
+    padding: 14px 34px;
+    transition: all 0.3s ease 0s;
+}
+
+.info_box button a{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.info_box button:hover{
+    background-color: #be0f52;
+}
+
+
+/* FOOTER SECTION */
+
+.foot_1{
+    padding-top: 3%;
+    float: left;
+    width: 50%;
+    padding-bottom: 4%;
+}
+
+.foot_2{
+    padding-top: 4.5%;
+    margin-left: 10%;
+    float: left;
+    width: 35%;
+    padding-bottom: 4%;
+}
+
+.fp{
+    padding-top: 2%;
+    padding-left: 8%;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+
+.foot_15{
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.fi img{
+    border: 1px solid #cdd1d4;
+    border-radius: 50%;
+    padding: 10px 10px;
+    background-color: #cdd1d4;
+    margin-left: 3%;
+    transition: all 0.3s ease 0s;
+}
+
+.fi img:hover{
+    background-color: #6C7175;
+}
