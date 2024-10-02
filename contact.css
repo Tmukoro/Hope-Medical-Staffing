@@ -89,13 +89,23 @@
         padding: 0%;
         margin: 0%;
     }
+    
+    #header{
+        position: sticky;
+        box-sizing: border-box;
+        z-index: 100;
+        height: 80px;
+        top: 0;
+        background-color: white;
+    }
 
     .nav_brand{
-        margin-right: 47%;
+        margin-right: auto;
+        margin-left: 1rem;
     }
 
     .nav_brand img{
-        width: 80%;
+        width: 70%;
     }
 
     .span_nav{
@@ -127,9 +137,9 @@
         position: absolute;
         flex-direction: column;
         width: 100%;
-        height: 280px;
         transition: all 0.3s ease 0s;
-        top: -320%;
+        height: 330px;
+        top: -1000%;
         opacity: 0%;
     }
 
@@ -172,7 +182,7 @@
     }
 
     .nav_btn.active{
-         top: 362%;
+         top: 490%;
          opacity: 100%;
     }
     
@@ -187,9 +197,23 @@
         padding: 0%;
         margin: 0%;
     }
+    
+    #header{
+        position: sticky;
+        z-index: 100;
+        height: 80px;
+        box-sizing: border-box;
+        top: 0;
+        background-color: white;
+    }
 
     .nav_brand{
-        margin-right: 57%;
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+
+    .nav_brand img{
+        width: 70%;
     }
 
     .span_nav{
@@ -221,9 +245,9 @@
         position: absolute;
         flex-direction: column;
         width: 100%;
-        height: 320px;
         transition: all 0.3s ease 0s;
-        top: -270%;
+        height: 290px;
+        top: -1000%;
         opacity: 0%;
     }
 
@@ -266,7 +290,7 @@
     }
 
     .nav_btn.active{
-         top: 362%;
+         top: 423%;
          opacity: 100%;
     }
     
@@ -281,9 +305,22 @@
         padding: 0%;
         margin: 0%;
     }
+    
+    #header{
+        position: sticky;
+        z-index: 100;
+        height: 90px;
+        top: 0;
+        background-color: white;
+    }
 
     .nav_brand{
-        margin-right: 67%;
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+
+    .nav_brand img{
+        width: 70%;
     }
 
     .span_nav{
@@ -315,9 +352,9 @@
         position: absolute;
         flex-direction: column;
         width: 100%;
-        height: 330px;
         transition: all 0.3s ease 0s;
-        top: -270%;
+        height: 290px;
+        top: -1000%;
         opacity: 0%;
     }
 
@@ -360,7 +397,7 @@
     }
 
     .nav_btn.active{
-         top: 370%;
+         top: 423%;
          opacity: 100%;
     }
     
@@ -368,7 +405,6 @@
         color: white;
         text-decoration: none;
     }
-
 }
 
 
@@ -742,7 +778,7 @@
 }
 
 
-.info_box p{
+.info_box label{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -751,9 +787,14 @@
 
 .info_box input{
     border: 1px solid #d6d8db;
-    padding: 12px 150px 12px 5px;
+    padding: 12px 190px 12px 5px;
     border-radius: 8px;
     margin-bottom: 10%;
+}
+
+.info_box input::-webkit-inner-spin-button{
+       -webkit-appearance: none;
+       margin: 0%;
 }
 
 .info_box input::placeholder{
@@ -763,25 +804,25 @@
     width: 250px;
 }
 
-.info_box button{
+.info_box .sbutton{
     background-color: #ED0D63;
     border: 1px solid #ED0D63;
     border-radius: 10px;
-    margin-left: 14%;
+    margin-left: 5rem;
     padding: 14px 34px;
     transition: all 0.3s ease 0s;
 }
-
-.info_box button a{
+ 
+.sbutton{
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    text-decoration: none;
 }
 
-.info_box button:hover{
+.sbutton:hover{
     background-color: #be0f52;
 }
+
 
 @media screen and (max-width: 420px){
     .contact{
@@ -870,28 +911,26 @@
         width: 250px;
     }
     
-    .info_box button{
+    .info_box .sbutton{
         background-color: #ED0D63;
         border: 1px solid #ED0D63;
         border-radius: 10px;
-        margin-left: 15%;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        width: auto;
-        max-width: 80%;
+        margin-left: 2.5rem;
+        padding: 14px 34px;
         transition: all 0.3s ease 0s;
     }
-    
-    .info_box button a{
+     
+    .sbutton{
         color: white;
         font-family: "Inter", sans-serif;
-        font-size: 15px;
-        text-decoration: none;
+        font-size: 16px;
     }
     
-    .info_box button:hover{
+    .sbutton:hover{
         background-color: #be0f52;
     }
+    
+
 }
 
 @media screen and (min-width: 420px) and (max-width: 600px){
@@ -982,26 +1021,22 @@
         width: 250px;
     }
     
-    .info_box button{
+    .info_box .sbutton{
         background-color: #ED0D63;
         border: 1px solid #ED0D63;
         border-radius: 10px;
-        margin-left: 27%;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        width: auto;
-        max-width: 70%;
+        margin-left: 2.5rem;
+        padding: 14px 34px;
         transition: all 0.3s ease 0s;
     }
-    
-    .info_box button a{
+     
+    .sbutton{
         color: white;
         font-family: "Inter", sans-serif;
-        font-size: 15px;
-        text-decoration: none;
+        font-size: 16px;
     }
     
-    .info_box button:hover{
+    .sbutton:hover{
         background-color: #be0f52;
     }
 }
@@ -1093,30 +1128,25 @@
         width: 250px;
     }
     
-    .info_box button{
+    .info_box .sbutton{
         background-color: #ED0D63;
         border: 1px solid #ED0D63;
         border-radius: 10px;
-        margin-left: 30%;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        width: auto;
-        max-width: 100%;
+        margin-left: 2.5rem;
+        padding: 14px 34px;
         transition: all 0.3s ease 0s;
     }
-    
-    .info_box button a{
+     
+    .sbutton{
         color: white;
         font-family: "Inter", sans-serif;
-        font-size: 15px;
-        text-decoration: none;
+        font-size: 16px;
     }
     
-    .info_box button:hover{
+    .sbutton:hover{
         background-color: #be0f52;
     }
 }
-
 
 /* FOOTER SECTION */
 
@@ -1201,7 +1231,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: 70%;
+        width: auto;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1272,7 +1302,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: 70%;
+        width: auto;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1344,7 +1374,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: 70%;
+        width: auto;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }

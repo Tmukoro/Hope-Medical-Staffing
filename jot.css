@@ -468,7 +468,7 @@
 }
 
 
-.info_box p{
+.info_box label{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -477,9 +477,14 @@
 
 .info_box input{
     border: 1px solid #d6d8db;
-    padding: 12px 150px 12px 5px;
+    padding: 12px 190px 12px 5px;
     border-radius: 8px;
     margin-bottom: 10%;
+}
+
+.info_box input::-webkit-inner-spin-button{
+       -webkit-appearance: none;
+       margin: 0%;
 }
 
 .info_box input::placeholder{
@@ -489,25 +494,25 @@
     width: 250px;
 }
 
-.info_box button{
+.info_box .sbutton{
     background-color: #ED0D63;
     border: 1px solid #ED0D63;
     border-radius: 10px;
-    margin-left: 14%;
+    margin-left: 5rem;
     padding: 14px 34px;
     transition: all 0.3s ease 0s;
 }
-
-.info_box button a{
+ 
+.sbutton{
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    text-decoration: none;
 }
 
-.info_box button:hover{
+.sbutton:hover{
     background-color: #be0f52;
 }
+
 
 @media screen and (max-width: 420px){
     .contact{
@@ -596,28 +601,26 @@
         width: 250px;
     }
     
-    .info_box button{
+    .info_box .sbutton{
         background-color: #ED0D63;
         border: 1px solid #ED0D63;
         border-radius: 10px;
-        margin-left: 15%;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        width: auto;
-        max-width: 80%;
+        margin-left: 2.5rem;
+        padding: 14px 34px;
         transition: all 0.3s ease 0s;
     }
-    
-    .info_box button a{
+     
+    .sbutton{
         color: white;
         font-family: "Inter", sans-serif;
-        font-size: 15px;
-        text-decoration: none;
+        font-size: 16px;
     }
     
-    .info_box button:hover{
+    .sbutton:hover{
         background-color: #be0f52;
     }
+    
+
 }
 
 @media screen and (min-width: 420px) and (max-width: 600px){
@@ -708,26 +711,22 @@
         width: 250px;
     }
     
-    .info_box button{
+    .info_box .sbutton{
         background-color: #ED0D63;
         border: 1px solid #ED0D63;
         border-radius: 10px;
-        margin-left: 27%;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        width: auto;
-        max-width: 70%;
+        margin-left: 2.5rem;
+        padding: 14px 34px;
         transition: all 0.3s ease 0s;
     }
-    
-    .info_box button a{
+     
+    .sbutton{
         color: white;
         font-family: "Inter", sans-serif;
-        font-size: 15px;
-        text-decoration: none;
+        font-size: 16px;
     }
     
-    .info_box button:hover{
+    .sbutton:hover{
         background-color: #be0f52;
     }
 }
@@ -819,26 +818,22 @@
         width: 250px;
     }
     
-    .info_box button{
+    .info_box .sbutton{
         background-color: #ED0D63;
         border: 1px solid #ED0D63;
         border-radius: 10px;
-        margin-left: 30%;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        width: auto;
-        max-width: 100%;
+        margin-left: 2.5rem;
+        padding: 14px 34px;
         transition: all 0.3s ease 0s;
     }
-    
-    .info_box button a{
+     
+    .sbutton{
         color: white;
         font-family: "Inter", sans-serif;
-        font-size: 15px;
-        text-decoration: none;
+        font-size: 16px;
     }
     
-    .info_box button:hover{
+    .sbutton:hover{
         background-color: #be0f52;
     }
 }
@@ -927,7 +922,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: 70%;
+        width: auto;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -998,7 +993,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: 70%;
+        width: auto;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1070,7 +1065,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: 70%;
+        width: auto;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }

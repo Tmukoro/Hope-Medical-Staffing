@@ -76,19 +76,27 @@
 
 <div class="info_box">
 
-<p>Your name</p>    
-<input type="text" placeholder="John Doe">
 
-<p>Email address</p>    
-<input type="email" placeholder="JohnDoe7@gmail.com">
+<form action="mailto:alvinogboru6@gmail.com" method="get">
+    
+<label for="Name">Your name</label>    
+<input type="text" placeholder="John Doe" id="Name" name="Name" required>
 
-<p>Phone number</p>    
-<input type="number" placeholder="123456789">
+<label for="Email">Email address</label>    
+<input type="email" placeholder="JohnDoe7@gmail.com" id="Email" name="Email" required>
 
-<p>What position would you like?</p>    
-<input type="text" placeholder="I'd like to be an office assistant">
+<label for="Number">Phone number</label>    
+<input type="number" placeholder="0913349123" id="Number" name="number" minlength="0" maxlength="9" required>
 
-<button><a href="#">Send your message</a></button>
+<label for="Application form">What position would you like?</label>    
+<input type="text" placeholder="I'd like to be an office assistant" id="Applicaton form" required>
+
+<!-- <button><a href="#">Send your message</a></button> -->
+
+<input type="submit" value="Send your message" class="sbutton">
+
+</form>
+
 
 </div>
 
