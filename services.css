@@ -1083,153 +1083,7 @@
     .foot_1{
         padding-top: 3%;
         float: left;
-        width: 95%;
-        padding-bottom: 4%;
-        background-color: #fff8fb;
-    }
-    
-    .foot_2{
-        padding-top: 4.5%;
-        margin-left: 0%;
-        padding-left: 3%;
-        float: left;
         width: 100%;
-        padding-bottom: 4%;
-        background-color: #fff8fb;
-    }
-    
-    .fp{
-        padding-top: 2%;
-        padding-left: 4%;
-        display:flex;
-        align-items: center;
-        font-family: "Inter", sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        padding-bottom: 4%;
-    }
-
-    .fp img{
-        margin-right: 1%;
-    }
-    
-    .foot_15{
-        width: 40%;
-        margin-top: 3%;
-        margin-left: 2%;
-    }
-    
-    .fi img{
-        border: 1px solid #cdd1d4;
-        border-radius: 50%;
-        padding: 10px 10px;
-        background-color: #cdd1d4;
-        margin-left: 3%;
-        transition: all 0.3s ease 0s;
-    }
-    
-    .fi img:hover{
-        background-color: #6C7175;
-    }
-    
-    .nav_link2{
-        list-style: none;
-        display: block;
-        padding: 13px 5px;
-    }
-    
-    .nav_link2 a{
-        text-decoration: underline;
-        font-family: "Inter", sans-serif;
-        color: #6C7175;
-        transition: all 0.3s ease 0s;
-    }
-    
-    
-    .nav_link2 a:hover{
-        color: black;
-    }
-    
- 
-}
-
-@media screen and (min-width: 420px) and (max-width: 600px){
-    .foot_1{
-        padding-top: 3%;
-        float: left;
-        width: 95%;
-        padding-bottom: 4%;
-        background-color: #fff8fb;
-    }
-    
-    .foot_2{
-        padding-top: 4.5%;
-        margin-left: 0%;
-        padding-left: 3%;
-        float: left;
-        width: 100%;
-        padding-bottom: 4%;
-        background-color: #fff8fb;
-    }
-    
-    .fp{
-        padding-top: 2%;
-        padding-left: 4%;
-        display:flex;
-        align-items: center;
-        font-family: "Inter", sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        padding-bottom: 4%;
-    }
-
-    .fp img{
-        margin-right: 1%;
-    }
-    
-    .foot_15{
-        width: 40%;
-        margin-top: 3%;
-        margin-left: 2%;
-    }
-    
-    .fi img{
-        border: 1px solid #cdd1d4;
-        border-radius: 50%;
-        padding: 10px 10px;
-        background-color: #cdd1d4;
-        margin-left: 3%;
-        transition: all 0.3s ease 0s;
-    }
-    
-    .fi img:hover{
-        background-color: #6C7175;
-    }
-    
-    .nav_link2{
-        list-style: none;
-        display: block;
-        padding: 18px 5px;
-    }
-    
-    .nav_link2 a{
-        text-decoration: underline;
-        font-family: "Inter", sans-serif;
-        color: #6C7175;
-        transition: all 0.3s ease 0s;
-    }
-    
-    
-    .nav_link2 a:hover{
-        color: black;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 768px){
-    .foot_1{
-        padding-top: 3%;
-        float: left;
-        width: 95%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1250,7 +1104,7 @@
         display: flex;
         align-items: center;
         font-family: "Inter", sans-serif;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 400;
         padding-bottom: 4%;
     }
@@ -1281,21 +1135,166 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 18px 5px;
+        padding: 14px 0px;
     }
     
     .nav_link2 a{
         text-decoration: underline;
         font-family: "Inter", sans-serif;
-        color: #6C7175;
+        color: #000000;
         transition: all 0.3s ease 0s;
     }
     
     
     .nav_link2 a:hover{
         color: black;
-    }  
+    }
 }
+
+@media screen and (min-width: 420px) and (max-width: 600px){
+    .foot_1{
+        padding-top: 3%;
+        float: left;
+        width: 100%;
+        padding-bottom: 4%;
+        background-color: #fff8fb;
+    }
+    
+    .foot_2{
+        padding-top: 4.5%;
+        margin-left: 0%;
+        padding-left: 3%;
+        float: left;
+        width: 100%;
+        padding-bottom: 4%;
+        background-color: #fff8fb;
+    }
+    
+    .fp{
+        padding-top: 2%;
+        padding-left: 4%;
+        display: flex;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        padding-bottom: 4%;
+    }
+
+    .fp img{
+        margin-right: 1%;
+    }
+    
+    .foot_15{
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    
+    .fi img{
+        border: 1px solid #cdd1d4;
+        border-radius: 50%;
+        padding: 10px 10px;
+        background-color: #cdd1d4;
+        margin-left: 3%;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .fi img:hover{
+        background-color: #6C7175;
+    }
+    
+    .nav_link2{
+        list-style: none;
+        display: block;
+        padding: 17px 5px;
+    }
+    
+    .nav_link2 a{
+        text-decoration: underline;
+        font-family: "Inter", sans-serif;
+        color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    
+    .nav_link2 a:hover{
+        color: black;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .foot_1{
+        padding-top: 3%;
+        float: left;
+        width: 100%;
+        padding-bottom: 4%;
+        background-color: #fff8fb;
+    }
+    
+    .foot_2{
+        padding-top: 4.5%;
+        margin-left: 0%;
+        padding-left: 3%;
+        float: left;
+        width: 100%;
+        padding-bottom: 4%;
+        background-color: #fff8fb;
+    }
+    .fp{
+        padding-top: 2%;
+        padding-left: 4%;
+        display: flex;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        padding-bottom: 4%;
+    }
+
+    .fp img{
+        margin-right: 1%;
+    }
+    
+    .foot_15{
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    
+    .fi img{
+        border: 1px solid #cdd1d4;
+        border-radius: 50%;
+        padding: 10px 10px;
+        background-color: #cdd1d4;
+        margin-left: 3%;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .fi img:hover{
+        background-color: #6C7175;
+    }
+    
+    .nav_link2{
+        list-style: none;
+        display: block;
+        padding: 19px 5px;
+    }
+    
+    .nav_link2 a{
+        text-decoration: underline;
+        font-family: "Inter", sans-serif;
+        color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    
+    .nav_link2 a:hover{
+        color: black;
+    }
+}
+
 
 
 

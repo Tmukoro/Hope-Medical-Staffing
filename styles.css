@@ -1224,9 +1224,8 @@
 }
 
 @media screen and (max-width: 420px){
-
     .foot_1{
-        padding-top: 13%;
+        padding-top: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
@@ -1235,7 +1234,8 @@
     
     .foot_2{
         padding-top: 4.5%;
-        margin-left: 3%;
+        margin-left: 0%;
+        padding-left: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
@@ -1251,6 +1251,10 @@
         font-size: 17px;
         font-weight: 400;
         padding-bottom: 4%;
+    }
+
+    .fp img{
+        margin-right: 1%;
     }
     
     .foot_15{
@@ -1275,13 +1279,13 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 13px 5px;
+        padding: 14px 0px;
     }
     
     .nav_link2 a{
         text-decoration: underline;
         font-family: "Inter", sans-serif;
-        color: #6C7175;
+        color: #000000;
         transition: all 0.3s ease 0s;
     }
     
@@ -1292,9 +1296,8 @@
 }
 
 @media screen and (min-width: 420px) and (max-width: 600px){
-
     .foot_1{
-        padding-top: 13%;
+        padding-top: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
@@ -1303,7 +1306,8 @@
     
     .foot_2{
         padding-top: 4.5%;
-        margin-left: 3%;
+        margin-left: 0%;
+        padding-left: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
@@ -1313,13 +1317,16 @@
     .fp{
         padding-top: 2%;
         padding-left: 4%;
-        padding-right: 32%;
         display: flex;
         align-items: center;
         font-family: "Inter", sans-serif;
         font-size: 17px;
         font-weight: 400;
         padding-bottom: 4%;
+    }
+
+    .fp img{
+        margin-right: 1%;
     }
     
     .foot_15{
@@ -1344,13 +1351,13 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 13px 5px;
+        padding: 17px 5px;
     }
     
     .nav_link2 a{
         text-decoration: underline;
         font-family: "Inter", sans-serif;
-        color: #6C7175;
+        color: #000000;
         transition: all 0.3s ease 0s;
     }
     
@@ -1358,6 +1365,7 @@
     .nav_link2 a:hover{
         color: black;
     }
+    
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px){
@@ -1371,13 +1379,13 @@
     
     .foot_2{
         padding-top: 4.5%;
-        margin-left: 3%;
+        margin-left: 0%;
+        padding-left: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
-    
     .fp{
         padding-top: 2%;
         padding-left: 4%;
@@ -1387,6 +1395,10 @@
         font-size: 17px;
         font-weight: 400;
         padding-bottom: 4%;
+    }
+
+    .fp img{
+        margin-right: 1%;
     }
     
     .foot_15{
@@ -1411,13 +1423,13 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 13px 5px;
+        padding: 19px 5px;
     }
     
     .nav_link2 a{
         text-decoration: underline;
         font-family: "Inter", sans-serif;
-        color: #6C7175;
+        color: #000000;
         transition: all 0.3s ease 0s;
     }
     
@@ -1426,4 +1438,5 @@
         color: black;
     }
 }
+
 

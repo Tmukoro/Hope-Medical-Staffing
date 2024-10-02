@@ -772,11 +772,14 @@
 
 .contact_box{
     padding-top: 3%;
-    margin-left: 39%;
-    width: 385px;
+    margin: auto;
+    width: 400px;
     height: 600px;
 }
 
+.p_box{
+    width: 380px;
+}
 
 .info_box label{
     font-family: "Inter", sans-serif;
@@ -787,7 +790,8 @@
 
 .info_box input{
     border: 1px solid #d6d8db;
-    padding: 12px 190px 12px 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-radius: 8px;
     margin-bottom: 10%;
 }
@@ -894,11 +898,11 @@
         color: #6C7175;
     }
     
+
     .info_box input{
         border: 1px solid #d6d8db;
         padding-top: 12px;
         padding-bottom: 12px;
-        width: auto;
         max-width: 100%;
         border-radius: 8px;
         margin-bottom: 14%;
@@ -908,7 +912,7 @@
         font-family: "Inter", sans-serif;
         color: #1D2B36;
         font-size: 16px;
-        width: 250px;
+        width: 1000px;
     }
     
     .info_box .sbutton{
@@ -1229,7 +1233,8 @@
     
     .foot_2{
         padding-top: 4.5%;
-        margin-left: 3%;
+        margin-left: 0%;
+        padding-left: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
@@ -1273,7 +1278,7 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 13px 5px;
+        padding: 14px 0px;
     }
     
     .nav_link2 a{
@@ -1300,7 +1305,8 @@
     
     .foot_2{
         padding-top: 4.5%;
-        margin-left: 3%;
+        margin-left: 0%;
+        padding-left: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
@@ -1372,13 +1378,13 @@
     
     .foot_2{
         padding-top: 4.5%;
-        margin-left: 3%;
+        margin-left: 0%;
+        padding-left: 3%;
         float: left;
         width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
-    
     .fp{
         padding-top: 2%;
         padding-left: 4%;

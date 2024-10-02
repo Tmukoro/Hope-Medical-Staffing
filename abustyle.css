@@ -914,17 +914,17 @@
         float: left;
         width: 100%;
         padding-bottom: 4%;
-        background-color: #fff6fa;
+        background-color: #fff8fb;
     }
     
     .foot_2{
         padding-top: 4.5%;
         margin-left: 0%;
         padding-left: 3%;
-        background-color: #fff6fa;
         float: left;
         width: 100%;
         padding-bottom: 4%;
+        background-color: #fff8fb;
     }
     
     .fp{
@@ -939,7 +939,6 @@
     }
 
     .fp img{
-        float: left;
         margin-right: 1%;
     }
     
@@ -965,13 +964,13 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 13px 5px;
+        padding: 14px 0px;
     }
     
     .nav_link2 a{
         text-decoration: underline;
         font-family: "Inter", sans-serif;
-        color: #6C7175;
+        color: #000000;
         transition: all 0.3s ease 0s;
     }
     
@@ -987,17 +986,17 @@
         float: left;
         width: 100%;
         padding-bottom: 4%;
-        background-color: #fff6fa;
+        background-color: #fff8fb;
     }
     
     .foot_2{
         padding-top: 4.5%;
         margin-left: 0%;
         padding-left: 3%;
-        background-color: #fff6fa;
         float: left;
         width: 100%;
         padding-bottom: 4%;
+        background-color: #fff8fb;
     }
     
     .fp{
@@ -1010,9 +1009,8 @@
         font-weight: 400;
         padding-bottom: 4%;
     }
-    
+
     .fp img{
-        float: left;
         margin-right: 1%;
     }
     
@@ -1038,13 +1036,13 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 13px 5px;
+        padding: 17px 5px;
     }
     
     .nav_link2 a{
         text-decoration: underline;
         font-family: "Inter", sans-serif;
-        color: #6C7175;
+        color: #000000;
         transition: all 0.3s ease 0s;
     }
     
@@ -1052,6 +1050,7 @@
     .nav_link2 a:hover{
         color: black;
     }
+    
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px){
@@ -1060,19 +1059,18 @@
         float: left;
         width: 100%;
         padding-bottom: 4%;
-        background-color: #fff6fa;
+        background-color: #fff8fb;
     }
     
     .foot_2{
         padding-top: 4.5%;
         margin-left: 0%;
         padding-left: 3%;
-        background-color: #fff6fa;
         float: left;
         width: 100%;
         padding-bottom: 4%;
+        background-color: #fff8fb;
     }
-    
     .fp{
         padding-top: 2%;
         padding-left: 4%;
@@ -1085,7 +1083,6 @@
     }
 
     .fp img{
-        float: left;
         margin-right: 1%;
     }
     
@@ -1111,13 +1108,13 @@
     .nav_link2{
         list-style: none;
         display: block;
-        padding: 13px 5px;
+        padding: 19px 5px;
     }
     
     .nav_link2 a{
         text-decoration: underline;
         font-family: "Inter", sans-serif;
-        color: #6C7175;
+        color: #000000;
         transition: all 0.3s ease 0s;
     }
     
@@ -1126,6 +1123,7 @@
         color: black;
     }
 }
+
 
 
 
