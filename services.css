@@ -1093,7 +1093,7 @@
         margin-left: 0%;
         padding-left: 3%;
         float: left;
-        width: auto;
+        width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1167,7 +1167,7 @@
         margin-left: 0%;
         padding-left: 3%;
         float: left;
-        width: auto;
+        width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1239,7 +1239,7 @@
         margin-left: 0%;
         padding-left: 3%;
         float: left;
-        width: auto;
+        width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }

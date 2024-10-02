@@ -1231,7 +1231,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: auto;
+        width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1302,7 +1302,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: auto;
+        width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
@@ -1374,7 +1374,7 @@
         padding-top: 4.5%;
         margin-left: 3%;
         float: left;
-        width: auto;
+        width: 100%;
         padding-bottom: 4%;
         background-color: #fff8fb;
     }
